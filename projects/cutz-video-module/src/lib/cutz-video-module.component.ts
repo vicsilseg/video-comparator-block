@@ -7,7 +7,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'lib-cutz-video-module',
+  selector: 'cutz-video-module',
   standalone: true,
   templateUrl: './cutz-video-module.component.html',
   styleUrls: ['./cutz-video-module.component.scss'],
