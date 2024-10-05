@@ -1,0 +1,46 @@
+// APPLICATION COLORS
+
+$color-secondary: #0e1539;
+$color-neutral-950: #1b1e32;
+$color-neutral-900: #242842;
+$color-neutral-800: #363c63;
+$color-neutral-700: #3e4774;
+$color-neutral-600: #475185;
+$color-neutral-500: #5965a6;
+$color-neutral-400: #7a84b8;
+$color-neutral-300: #9ca2c9;
+$color-neutral-200: #bdc1db;
+$color-neutral-100: #dee0ed;
+$color-primary: #f6f6f6;
+
+$color-neutral-dark: #000000;
+$color-neutral-light: #ffffff;
+
+$color-transparent: rgba($color-secondary, 0);
+
+$color-accent: #76fa8A;
+$color-accent-800: #8efb9e;
+$color-accent-600: #b0fcbc;
+$color-accent-400: #cefdd5;
+$color-accent-200: #e6feea;
+
+$color-alt: #cbc1f6;
+$color-alt-800: #d5cdf8;
+$color-alt-600: #e2ddfa;
+$color-alt-400: #ece8fb;
+$color-alt-200: #f7f5fd;
+
+// FORM
+
+$color-form-error: #D24719;
+$color-form-success: #6DAA6D;
+
+// MISCELLANEOUS
+
+$backdrop-overlay-dark: rgba($color-neutral-dark, .5);
+$backdrop-overlay-light: rgba($color-neutral-light, .5);
+$backdrop-overlay-primary: rgba($color-primary, .5);
+$backdrop-overlay-secondary: rgba($color-secondary, .5);
+
+$gradient-slider-light: linear-gradient(270deg, #{$color-neutral-light} 0%, rgba($color-neutral-light, 0) 100%);
+$gradient-slider-light-reverse: linear-gradient(90deg, #{$color-neutral-light} 0%, rgba($color-neutral-light, 0) 100%);

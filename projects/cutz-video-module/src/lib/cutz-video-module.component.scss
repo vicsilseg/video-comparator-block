@@ -1,0 +1,81 @@
+@import '@styles/variables.scss';
+
+$handle-size: $icon-lg;
+$handle-color: $color-accent;
+$handle-border-color: $color-secondary;
+$divider-color: $color-neutral-800;
+
+.video-comparator-block {
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba($divider-color, 0.1);
+    aspect-ratio: 16/9;
+    max-width: 75rem;
+    margin-inline: auto;
+
+    .video-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .video-left {
+            z-index: 1;
+        }
+
+        .video-right {
+            z-index: 2;
+            clip-path: inset(0 50% 0 0);
+        }
+
+        .handle {
+            position: absolute;
+            top: 0;
+            left: calc(50% - #{$handle-size} / 2);
+            width: $handle-size;
+            height: 100%;
+            background-color: transparent;
+            z-index: 4;
+            cursor: ew-resize;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            user-select: none;
+
+            .handle-icon {
+                width: $handle-size;
+                height: $handle-size;
+                aspect-ratio: 1;
+                background-color: $handle-color;
+                border-radius: 50%;
+                border: 2px solid $handle-border-color;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: calc($handle-size * 3 / 2);
+                color: $handle-border-color;
+                position: absolute;
+                z-index: 1;
+            }
+
+            .divider-line {
+                position: relative;
+                z-index: 0;
+                width: 2px;
+                height: 100%;
+                background-color: $divider-color;
+            }
+        }
+    }
+}

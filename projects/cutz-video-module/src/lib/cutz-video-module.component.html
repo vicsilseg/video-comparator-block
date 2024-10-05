@@ -1,0 +1,34 @@
+<section class="video-comparator-block">
+    <div
+        #videoWrapper
+        class="video-wrapper"
+    >
+        <video
+            #videoLeft
+            class="video-left"
+            [poster]="posterImg"
+            [src]="videoLeftSrc"
+            autoplay
+            muted
+            loop
+        ></video>
+
+        <video
+            #videoRight
+            class="video-right"
+            [poster]="posterImg"
+            [src]="videoRightSrc"
+            autoplay
+            muted
+            loop
+        ></video>
+
+        <div
+            #handle
+            class="handle"
+        >
+            <div class="divider-line"></div>
+            <div class="handle-icon">⟷</div>
+        </div>
+    </div>
+</section>
