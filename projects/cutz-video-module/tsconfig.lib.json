@@ -7,9 +7,6 @@
     "declarationMap": true,
     "inlineSources": true,
     "types": [],
-    "paths": {
-      "@styles/*": ["src/styles/*"]
-    }
   },
   "exclude": [
     "**/*.spec.ts"
