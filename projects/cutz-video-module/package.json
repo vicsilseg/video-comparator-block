@@ -1,6 +1,12 @@
 {
   "name": "cutz-video-module",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "A video comparison module for Angular applications",
+  "main": "dist/cutz-video-module/fesm2015/cutz-video-module.js",
+  "types": "dist/cutz-video-module/cutz-video-module.d.ts",
+  "scripts": {
+    "build": "ng build cutz-video-module"
+  },
   "peerDependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0"
@@ -8,5 +14,21 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "files": [
+    "dist/cutz-video-module"
+  ],
+  "author": "Víctor Silva",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "video",
+    "comparison",
+    "module",
+    "cutz"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vicsilseg/video-comparator-block"
+  }
 }
