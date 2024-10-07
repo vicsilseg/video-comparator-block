@@ -51,7 +51,7 @@ npm install <path-to-tgz-file>
 Then, import the module into your application:
 
 ```typescript
-import { CutzVideoModuleModule } from 'cutz-video-module';
+import { CutzVideoModuleModule } from '@uvesilva/cutz-video-module';
 
 @NgModule({
   declarations: [...],
