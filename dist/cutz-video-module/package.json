@@ -1,9 +1,9 @@
 {
-  "name": "cutz-video-module",
+  "name": "@uvesilva/cutz-video-module",
   "version": "1.0.0",
   "description": "A video comparison module for Angular applications",
   "main": "fesm2022/cutz-video-module.mjs",
-  "module": "fesm2022/cutz-video-module.mjs",
+  "module": "fesm2022/uvesilva-cutz-video-module.mjs",
   "es2020": "fesm2022/cutz-video-module.mjs",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -42,9 +42,9 @@
     },
     ".": {
       "types": "./index.d.ts",
-      "esm2022": "./esm2022/cutz-video-module.mjs",
-      "esm": "./esm2022/cutz-video-module.mjs",
-      "default": "./fesm2022/cutz-video-module.mjs"
+      "esm2022": "./esm2022/uvesilva-cutz-video-module.mjs",
+      "esm": "./esm2022/uvesilva-cutz-video-module.mjs",
+      "default": "./fesm2022/uvesilva-cutz-video-module.mjs"
     }
   }
 }

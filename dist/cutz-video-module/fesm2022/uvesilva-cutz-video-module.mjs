@@ -93,4 +93,4 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.3.12", ngImpo
  */
 
 export { CutzVideoModuleComponent, CutzVideoModuleService };
-//# sourceMappingURL=cutz-video-module.mjs.map
+//# sourceMappingURL=uvesilva-cutz-video-module.mjs.map

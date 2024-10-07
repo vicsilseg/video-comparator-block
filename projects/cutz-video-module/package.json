@@ -1,5 +1,5 @@
 {
-  "name": "cutz-video-module",
+  "name": "@uvesilva/cutz-video-module",
   "version": "1.0.0",
   "description": "A video comparison module for Angular applications",
   "main": "fesm2022/cutz-video-module.mjs",

@@ -38,7 +38,7 @@ cutz-video-module/
 To install the **Cutz Video Module** in your Angular project, use the following command:
 
 ```bash
-npm install cutz-video-module
+npm install @uvesilva/cutz-video-module
 ```
 
 Alternatively, you can install the dependency locally at your external Angular application by installing the .tgz on dist folder
