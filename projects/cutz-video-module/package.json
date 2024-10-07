@@ -2,21 +2,25 @@
   "name": "cutz-video-module",
   "version": "1.0.0",
   "description": "A video comparison module for Angular applications",
-  "main": "dist/cutz-video-module/fesm2015/cutz-video-module.js",
-  "types": "dist/cutz-video-module/cutz-video-module.d.ts",
-  "scripts": {
-    "build": "ng build cutz-video-module"
-  },
+  "main": "fesm2022/cutz-video-module.mjs",
+  "module": "fesm2022/cutz-video-module.mjs",
+  "es2020": "fesm2022/cutz-video-module.mjs",
+  "types": "index.d.ts",
+  "sideEffects": false,
   "peerDependencies": {
-    "@angular/common": "^17.3.0",
-    "@angular/core": "^17.3.0"
+    "@angular/core": "^17.3.0",
+    "@angular/common": "^17.3.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "sideEffects": false,
   "files": [
-    "dist/cutz-video-module"
+    "fesm2022",
+    "esm2022",
+    "lib",
+    "*.d.ts",
+    "*.js",
+    "README.md"
   ],
   "author": "Víctor Silva",
   "license": "MIT",

@@ -16,10 +16,12 @@ Welcome to **Cutz Video Module**, an Angular library designed to create an inter
 cutz-video-module/
   └── src/
     ├── lib/
-    │   ├── cutz-video-module.component.ts
     │   ├── cutz-video-module.component.html
     │   ├── cutz-video-module.component.scss
-    │   └── cutz-video-module.module.ts
+    │   ├── cutz-video-module.component.spec.ts
+    │   ├── cutz-video-module.component.ts
+    │   ├── cutz-video-module.service.spec.ts
+    │   └── cutz-video-module.service.ts
     ├── styles/
     │   └── variables.scss
     └── public-api.ts
@@ -68,23 +70,6 @@ After importing the module, you can use the video comparator component in your t
 - **`videoLeftSrc`**: The source URL for the left video.
 - **`videoRightSrc`**: The source URL for the right video.
 - **`posterImg`**: The poster image for both videos.
-
-## 📂 File Structure (Demo App)
-
-If you are testing the library with a demo application, the file structure could look like this:
-
-```bash
-demo-app/
-├── src/
-│   ├── app/
-│   │   ├── app.component.ts
-│   │   ├── app.component.html
-│   │   └── app.module.ts
-└── assets/
-    └── video1.mp4
-    └── video2.mp4
-    └── poster.jpg
-```
 
 ## 🛠️ Development
 

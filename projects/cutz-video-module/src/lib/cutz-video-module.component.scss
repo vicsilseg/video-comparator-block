@@ -1,6 +1,6 @@
 @import "../styles/variables.scss";
 
-$handle-size: 3rem;
+$handle-size: 2rem;
 $handle-color: $color-accent;
 $handle-border-color: $color-secondary;
 $divider-color: $color-neutral-800;
@@ -52,10 +52,9 @@ $divider-color: $color-neutral-800;
             justify-content: center;
             align-items: center;
             user-select: none;
+            aspect-ratio: 1;
 
             .handle-icon {
-                width: $handle-size;
-                height: $handle-size;
                 aspect-ratio: 1;
                 background-color: $handle-color;
                 border-radius: 50%;
@@ -63,7 +62,7 @@ $divider-color: $color-neutral-800;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                font-size: calc($handle-size * 3 / 2);
+                font-size: 1.5rem;
                 color: $handle-border-color;
                 position: absolute;
                 z-index: 1;

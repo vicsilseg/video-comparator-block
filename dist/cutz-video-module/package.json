@@ -1,0 +1,50 @@
+{
+  "name": "cutz-video-module",
+  "version": "1.0.0",
+  "description": "A video comparison module for Angular applications",
+  "main": "fesm2022/cutz-video-module.mjs",
+  "module": "fesm2022/cutz-video-module.mjs",
+  "es2020": "fesm2022/cutz-video-module.mjs",
+  "types": "index.d.ts",
+  "sideEffects": false,
+  "peerDependencies": {
+    "@angular/core": "^17.3.0",
+    "@angular/common": "^17.3.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "files": [
+    "fesm2022",
+    "esm2022",
+    "lib",
+    "*.d.ts",
+    "*.js",
+    "README.md"
+  ],
+  "author": "Víctor Silva",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "video",
+    "comparison",
+    "module",
+    "cutz"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vicsilseg/video-comparator-block"
+  },
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/cutz-video-module.mjs",
+      "esm": "./esm2022/cutz-video-module.mjs",
+      "default": "./fesm2022/cutz-video-module.mjs"
+    }
+  }
+}
