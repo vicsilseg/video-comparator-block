@@ -41,6 +41,13 @@ To install the **Cutz Video Module** in your Angular project, use the following 
 npm install cutz-video-module
 ```
 
+Alternatively, you can install the dependency locally at your external Angular application by installing the .tgz on dist folder
+
+```bash
+cd another_angular_project
+npm install <path-to-tgz-file>
+```
+
 Then, import the module into your application:
 
 ```typescript
@@ -71,6 +78,24 @@ After importing the module, you can use the video comparator component in your t
 - **`videoRightSrc`**: The source URL for the right video.
 - **`posterImg`**: The poster image for both videos.
 
+## 📂 File Structure (Demo App)
+
+If you are testing the library with a demo application, the file structure could look like this:
+
+```bash
+demo-app/
+├── src/
+│   ├── app/
+│   │   ├── app.component.ts
+│   │   ├── app.component.html
+│   │   └── app.module.ts
+└── assets/
+    └── media/
+      └── sample_960_540_60fps.mp4
+      └── sample_1920_1080_60fps.mp4
+      └── poster.jpg
+```
+
 ## 🛠️ Development
 
 To develop and test the library, you can use Angular's development tools:
@@ -81,7 +106,20 @@ To develop and test the library, you can use Angular's development tools:
    ng build cutz-video-module
    ```
 
-2. **Serve the demo application**:
+2. **Pack the library**
+
+   ```bash
+   npm run build-library
+   ```
+
+   After, create the .tgz file
+
+   ```bash
+   npm run pack-lib
+   ```
+
+3. **Serve the demo application**:
+
    ```bash
    ng serve demo-app
    ```
@@ -100,3 +138,7 @@ This project is licensed under the MIT License.
 ---
 
 Made with ❤️ by [Víctor Silva](https://uvesilva.online)
+
+```
+
+```
